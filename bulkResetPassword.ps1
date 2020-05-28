@@ -30,7 +30,7 @@ foreach ($item in $Users) {
     write-host $login - Password has been reset for $login
 
     #set a description if needed
-    #Set-ADUser -Identity $item.username -Description "Reset password as per Senior IT Manager for security reasons 05/27/20"
+    #Set-ADUser -Identity $item.username -Description "Reset password as per Senior IT Manager for security reasons"
 }
 
 
